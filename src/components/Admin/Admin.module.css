@@ -1,0 +1,53 @@
+.wrapper {
+  min-width: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.panel {
+  max-height: 600px;
+  border: 1px solid rgba(159, 183, 197, 0.2);
+  border-radius: 8px;
+  width: 80%;
+  background: #fff;
+  min-height: 300px;
+}
+
+.panel button {
+  margin-right: 10px;
+}
+
+.table tbody tr:hover {
+  cursor: pointer;
+  background: #cfd2e7;
+}
+
+.panel__content {
+  display: flex;
+  margin: 1rem;
+}
+
+.panel__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table__wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.table {
+  width: 50%;
+}
+
+.data_user {
+  width: 50%;
+}
+
+.users__form {
+  max-width: 250px;
+  margin: 0 auto;
+}

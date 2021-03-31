@@ -1,0 +1,24 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.title span {
+  font-size: 12px;
+  color: gray;
+}
+
+form {
+  margin: 1rem;
+}
+
+.subTitle {
+  max-width: 250px;
+  margin: 0 auto;
+}
