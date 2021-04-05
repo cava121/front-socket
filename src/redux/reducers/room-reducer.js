@@ -49,6 +49,9 @@ export const exitAccount = () => {
     localStorage.removeItem('user');
     localStorage.removeItem('room');
     dispatch(exitAccountAC());
+    setTimeout(() => {
+      window.location.reload();
+    }, 0);
   };
 };
 
